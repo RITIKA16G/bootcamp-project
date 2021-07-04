@@ -1,10 +1,3 @@
-import hashlib
-string1="SHAPEAI"
-result=hashlib.md5(string1.encode())
-print("The Hexadecimal equivalent of hash is:-",end=" ")
-print(result.hexdigest())
-string2=input("Enter your STRING DATA:-")
-result=hashlib.md5(string2.encode())
-print("The Hexadecimal equivalent of hash is:-",end=" ")
-print(result.hexdigest())
-input()
+The Hexadecimal equivalent of hash is:- bf461f09bb28828cc3fd14b975da9909
+Enter your STRING DATA:-SHAPE AI
+The Hexadecimal equivalent of hash is:- 4d7823e5fe0b8b3ff4d6a3b07f8bb31b
